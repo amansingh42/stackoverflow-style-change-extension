@@ -1,0 +1,29 @@
+#sidebar, .left-sidebar, .show-votes {
+    visibility: hidden;
+}
+
+.js-favorite-count,
+.js-comments-container,
+.show-link,
+.comment,
+.mb0,
+.js-products-menu,
+.answers-subheader,
+.post-taglist,
+.js-add-link,
+.js-post-issue,
+.bottom-notice,
+.s-btn-primary,
+.site-footer--container,
+#post-form
+{
+    display: none !important;
+}
+
+.answer:nth-of-type(2){
+    border: 2px green solid !important;
+    border-radius: 10px;
+    padding: 5px !important;
+    padding-bottom: 0px;
+    margin-bottom: 25px !important;
+}
